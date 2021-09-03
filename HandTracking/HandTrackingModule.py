@@ -76,6 +76,9 @@ class handDetector():
                 fingers.append(0)
         return fingers
 
+    def counterDistace(self, p1, p2):
+        id = 1;
+
     def findDistance(self, p1, p2, img, draw=True):
 
         x1, y1 = self.lmList[p1][1], self.lmList[p1][2]

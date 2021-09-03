@@ -14,7 +14,7 @@ cap.set(4, hCam)
 pTime = 0
 plocX, plocY = 0, 0
 clocX, clocY = 0, 0
-detector = htm.handDetector(maxHands=1)
+detector = htm.handDetector(maxHands=1, detectionCon=0.8)
 wScr, hScr = autopy.screen.size()
 print(wScr, hScr)
 while True:
